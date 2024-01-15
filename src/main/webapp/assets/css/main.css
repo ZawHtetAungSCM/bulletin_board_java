@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	font-family: var(--bs-font-sans-serif);
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #3e3746;
+	background-color: #f6f3f8;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.line-clamp-1, .line-clamp-2, .line-clamp-3, .line-clamp-4 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.line-clamp-1 {
+	-webkit-line-clamp: 3;
+}
+
+.line-clamp-2 {
+	-webkit-line-clamp: 3;
+}
+
+.line-clamp-3 {
+	-webkit-line-clamp: 3;
+}
+
+.line-clamp-4 {
+	-webkit-line-clamp: 4;
+}
+
+.highlighted {
+	background-color: #99ccff;
+}

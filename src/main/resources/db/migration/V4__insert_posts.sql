@@ -1,0 +1,41 @@
+INSERT INTO posts (
+    title,
+    description,
+    status,
+    created_user_id,
+    updated_user_id,
+    deleted_user_id,
+    created_at,
+    updated_at,
+    deleted_at)
+VALUES
+(
+    'Post 1',
+    'Description for Post 1',
+    1,
+    1,
+    1,
+    NULL,
+    '2022-01-15 12:30:00',
+    '2022-01-15 13:45:00',
+    NULL),
+(
+    'Post 2',
+    'Description for Post 2',
+    0,
+    2,
+    2,
+    NULL,
+    '2022-01-16 10:00:00',
+    '2022-01-16 11:15:00',
+    NULL),
+(
+    'Post 3',
+    'Description for Post 3',
+    1,
+    3,
+    3,
+    NULL,
+    '2022-01-17 15:45:00',
+    NULL,
+    NULL);
